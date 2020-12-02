@@ -10,10 +10,12 @@ public class Starter {
         //Loops.doWhileLoop();
         //ConditionalStatements.applyingConditionalStatements();
 
-        Switch.switchStatement();
-        Swap.swapNumbers();
-        Fibonacci.fibonacciSequence();
-        Sum.sumOfNumbers();
+        //Switch.switchStatement();
+        //Swap.swapNumbers();
+        //Fibonacci.fibonacciSequence();
+        Printer.printMessage("Fibonacci for n=7:: "+FibonacciRecursive.fibonacciRecursive(7));
+
+        //Sum.sumOfNumbers();
 
 //        BreakAndContinue.breakStatement();
 //        BreakAndContinue.breakStatement2();

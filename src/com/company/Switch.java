@@ -2,10 +2,15 @@ package com.company;
 
 public class Switch {
     public static void switchStatement(){
+        // user input in starter
         int day=4;
+        // have responsibility of switch only
+        // Use printer
+
+
         switch(day) {
             case 1:
-                System.out.println("Monday");
+                Printer.printMessage("Monday");
                 break;
             case 2:
                 System.out.println("Tuesday");

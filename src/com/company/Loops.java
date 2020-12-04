@@ -2,8 +2,8 @@ package com.company;
 
 public class Loops {
     // While loop
-    public static void whileLoop() {
-        int count=5;
+    public static void whileLoop(int count) {
+
         while(count>0){
             Printer.printMessage("While Loop::"+count);
             count--;
@@ -11,8 +11,8 @@ public class Loops {
     }
 
     // Do while loop
-    public static void doWhileLoop() {
-        int count=5;
+    public static void doWhileLoop(int count) {
+
         do{
             Printer.printMessage("Do while Loop::"+count);
             count--;

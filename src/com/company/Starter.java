@@ -2,20 +2,22 @@ package com.company;
 
 public class Starter {
     public static void start() {
+// Create project for each
+
 
         //DataTypesAndWrapperClasses.workingWithDataTypes();
         //DataTypesAndWrapperClasses.workingWithWrapperClasses();
         //DataTypesAndWrapperClasses.playingWithArrays();
-        //Loops.whileLoop();
-        //Loops.doWhileLoop();
+        //Loops.whileLoop(5);
+        //Loops.doWhileLoop(6);
         //ConditionalStatements.applyingConditionalStatements();
 
-        //Switch.switchStatement();
-        //Swap.swapNumbers();
-        //Fibonacci.fibonacciSequence();
-        Printer.printMessage("Fibonacci for n=7:: "+FibonacciRecursive.fibonacciRecursive(7));
+        Switch.switchStatement();
+        Swap.swapNumbers(5, 4);
+        Fibonacci.fibonacciSequence(0,1,20);
+        //Printer.printMessage("Fibonacci for n=7:: "+FibonacciRecursive.fibonacciRecursive(7));
 
-        //Sum.sumOfNumbers();
+        Sum.sumOfNumbers();
 
 //        BreakAndContinue.breakStatement();
 //        BreakAndContinue.breakStatement2();
